@@ -1,0 +1,19 @@
+{
+    "python.linting.enabled": true,
+    "python.linting.flake8Enabled": true,
+    "python.linting.flake8Args": [
+        "--select=C,E,F,W,B,B950",
+        "--ignore=W503",
+        "--max-line-length=88"
+    ],
+    "[python]": {
+        "editor.formatOnPaste": false,
+        "editor.rulers": [
+            88
+        ]
+    },
+    "editor.formatOnType": true,
+    "python.formatting.provider": "black",
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+}
